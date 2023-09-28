@@ -10,3 +10,5 @@ services:
       - rtlsdrpath:rtlsdrpath
     tmpfs:
       - /tmp/openwebrx
+    env_file:
+      - .env
